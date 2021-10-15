@@ -1,25 +1,18 @@
 {
-    "token": [
-        {
-            "id": 0,
-            "description": "My NFT",
-            "external_url": "https://forum.openzeppelin.com/t/create-an-nft-and-deploy-to-a-public-testnet-using-truffle/2961",
-            "image": "https://twemoji.maxcdn.com/svg/1f40e.svg",
-            "name": "My NFT 0"
+    "title": "token",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Identifies the asset to which this NFT represents"
         },
-        {
-            "id": 1,
-            "description": "My NFT",
-            "external_url": "https://forum.openzeppelin.com/t/create-an-nft-and-deploy-to-a-public-testnet-using-truffle/2961",
-            "image": "https://twemoji.maxcdn.com/svg/1f40e.svg",
-            "name": "My NFT 1"
+        "description": {
+            "type": "string",
+            "description": "Describes the asset to which this NFT represents"
         },
-        {
-            "id": 2,
-            "description": "My NFT",
-            "external_url": "https://forum.openzeppelin.com/t/create-an-nft-and-deploy-to-a-public-testnet-using-truffle/2961",
-            "image": "https://twemoji.maxcdn.com/svg/1f40e.svg",
-            "name": "My NFT 2"
+        "image": {
+            "type": "string",
+            "description": "A URI pointing to a resource with mime type image/* representing the asset to which this NFT represents. Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive."
         }
-    ]
+    }
 }
